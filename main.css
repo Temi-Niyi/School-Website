@@ -581,13 +581,13 @@ footer ul li a:hover {
   }
 
   .header__right-image img {
-    width: 90%;
+    width: 100%;
     height: 400px;
   }
 
   /* ========= CATEGORIES ========= */
   .categories__right {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 0.7rem;
   }
   .category {
@@ -602,13 +602,15 @@ footer ul li a:hover {
 
   /* ======= popular courses========= */
   .courses__container {
-    grid-template-columns: 1fr;
+    display: block;
   }
 
   /* ======testimonials====== */
   .testimonial__body {
     padding: 1.2rem;
   }
+  .faqs__container {
+    grid-template-columns: 1fr;
 
   /* ======= footer ====== */
   .footer__container {
