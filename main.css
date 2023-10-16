@@ -611,6 +611,7 @@ footer ul li a:hover {
   }
   .faqs__container {
     grid-template-columns: 1fr;
+  }
 
   /* ======= footer ====== */
   .footer__container {
