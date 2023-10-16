@@ -151,17 +151,16 @@
 @media screen and (max-width: 1024px){
 .about__achievements{
     margin-top:2rem;
+    margin-bottom: 2rem;
+    width: 100%;
 }
 .about__achievements-container{
     grid-template-columns: 1fr;
     gap: 4rem;
 }
-.about__achievements-left{
-    width:80%;
-    margin: auto;
-}
+
 .team__container{
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 1.5rem;
 }
 .team__member{
@@ -171,12 +170,15 @@
 }
 
 @media screen and (max-width: 600px){
-    .achievement__cards{
-        grid-template-columns: 1fr 1fr;
-        gap: 0.7rem;
+
+.about__achievements-left{
+}
+
+  .achievements__cards{
+        grid-template-columns: 1fr;
     }
     .team__container{
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr;
         gap: 0.7rem;
     }
     .team__member{
